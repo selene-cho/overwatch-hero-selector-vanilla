@@ -1,0 +1,11 @@
+.container {
+}
+.container .heroes {
+}
+.container .heroes .hero {
+  width: 80px;
+  height: 84px;
+  border-color: #555;
+}
+.container .heros .hero .image {
+}
