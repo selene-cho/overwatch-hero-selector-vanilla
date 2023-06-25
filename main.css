@@ -1,9 +1,17 @@
+body {
+  height: 100vh;
+  background-image: url('./images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 배경이미지 고정 */
+}
+
 .container {
+  padding: 50px 0;
 }
 .container .heroes {
   display: flex;
   flex-wrap: wrap;
-  background-color: orange;
   justify-content: center;
   max-width: 700px;
   margin: 0 auto; /* block 요소, 가로 사이즈 존재, margin: 좌우 auto -> 요소 가운데 정렬  */
@@ -130,4 +138,11 @@
 }
 .container .heroes .hero:nth-child(32) .image {
   background-image: url('./images/hero32.png');
+}
+.container .logo {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container .logo img {
+  width: 100%; /* image를 logo의 최대 너비에 맞춰서 출력 */
 }
