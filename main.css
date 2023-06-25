@@ -1,11 +1,14 @@
 .container {
 }
 .container .heroes {
+  display: flex;
+  flex-wrap: wrap;
 }
 .container .heroes .hero {
   width: 80px;
   height: 84px;
-  border-color: #555;
+  margin: 4px;
+  background-color: #555;
 }
-.container .heros .hero .image {
+.container .heroes .hero .image {
 }
